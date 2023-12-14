@@ -85,3 +85,194 @@ body {
 .rightContent > img {
     width: 700px;
 }
+
+.solutionContent {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    min-height: 500px;
+}
+
+.solutionContent > .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.solutionContent > .header >.heading {
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.header > .description {
+    color:  #57647c;
+    max-width: 900px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.solutions {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.solutionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+    flex-wrap: wrap;
+    margin: 50px;
+    margin-top: 10px;
+}
+
+.solutionHeading {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 20px;
+    color: #333;
+}
+
+.solutionDesc {
+    text-align: center;
+    color: #57647c;
+}
+
+#benefitsContent {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    min-height: 100px;
+    padding: 20px 40px;
+}
+
+#benefitsContent > .rightContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 700px;
+}
+
+#benefitsContent > .rightContent > .heading {
+    font-weight: bolder;
+    font-size: 2rem;
+    max-width: 650px;
+    color: #333;
+}
+
+#benefitsContent > .rightContent > .description {
+    color: #57647c;
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+.benefitsList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.benefitsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.benefitsContainer > img {
+    background-color: #0ca59d;
+    height: 20px;
+    width: 20px;
+}
+
+.benefitsDescription {
+    margin-left: 10px;
+    color: 334754;
+    font-weight: bold;
+}
+
+#benefitsContent > .leftContent {
+    width: 50%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#benefitsContent > .leftContent > img {
+    width: 70%;
+}
+
+.pointsHeader {
+    color: #0ca59d;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.pointsContent {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftPoints > .pointsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.leftPoints > .pointsContainer > #pointsHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.leftImage {
+    margin-left: 10px;
+}
+
+.pointsDescriptionLeft {
+    color: #57647c;
+    max-width: 500px;
+    margin-bottom: 40px;
+    text-align: end;
+}
+
+.pointsDescriptionRight {
+    color: #57647c;
+    max-width: 500px;
+    margin-bottom: 40px;
+    text-align: start;
+}
+
+.rightPoints > #pointsContainer > .pointsHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.rightimage {
+    margin-right: 10px;
+}
