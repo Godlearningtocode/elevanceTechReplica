@@ -276,3 +276,225 @@ body {
 .rightimage {
     margin-right: 10px;
 }
+
+.industryContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#industryHeader > .header {
+    color: #33475B;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#industryHeader > .description {
+    color: #57647c;
+    max-width: 700px;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.industryList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    width: 100%;
+
+}
+
+.industryName {
+    color: #57647c;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    min-height: 80px;
+    border-radius: 10px;
+    max-width: 350px;
+    width: 20%;
+    transition: all .4s;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.industryName:hover {
+    background-color: #08756F;
+    color: white;
+}
+
+.reviewsContent {
+    background-image: linear-gradient(38deg, rgba(12, 165, 157, 1) 62%, rgba(0, 168, 255, 1) 81%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.reviewsHeader > .header {
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.reviewsHeader > .description {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reviewsModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewsContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.reviewsCard {
+    position: relative;
+    background-color: white;
+    color: #57647c;
+    font-weight: bold;
+    padding: 40px;
+    border-radius: 10px;
+    height: 250px;
+    width: 300px;
+}
+
+.reviewQuotes {
+    background-color: #08756F;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -28px;
+    left: -25px;
+}
+
+.reviewQuotes > img {
+    width: 35px;
+    height: 35px;
+}
+
+.userReviews {
+    line-height: 1.7rem;
+}
+
+.reviewsPointer {
+    width: 0px;
+    height: 0px;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    border-top: 25px solid white;
+    position: absolute;
+    bottom: -10px;
+    right: 325px;
+}
+
+.userCard {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.userCard > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.userDetails {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.userName {
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #182c51;
+    display: flex;
+    flex-direction: row;
+    padding: 100px 50px;
+}
+
+.footer > .leftContent {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.footer > .leftContent > .logo {
+    width: 250px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.socialLinks {
+    display: flex;
+    margin-top: 30px;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialButton {
+    background-color: #333333;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > .rightContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.serviceLinksSection, .quickLinksSection, .contactsSection {
+    height: 100%;
+}
+
+.serviceLinksSection > .header, .quickLinksSection > .header, .contactsSection > .header {
+    font-weight: bold;
+    font-size: 2rem;
+    border-bottom: 2px solid #ffac00;
+    margin-bottom: 35px;
+}
+
+.serviceLinks, .quickLinks {
+    display: grid;
+    gap: 15px;
+}
+
+.address, .email, .contactNumber {
+    margin-bottom: 15px;
+}
